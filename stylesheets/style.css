@@ -1,0 +1,172 @@
+.bg-gray1 {
+  background-color: #F2F2F2;
+}
+
+.bg-gray2 {
+  background-color: #EBEBEB;
+}
+
+.bg-gray3 {
+  background-color: #D7D7D7;
+}
+
+.border-black {
+  border-color: #000 !important;
+}
+
+.border-gray3 {
+  border-color: #D7D7D7 !important;
+}
+
+.h-simple-d {
+  height: 45px;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-gray4 {
+  color: #9B9B9B;
+}
+
+.w-90 {
+  width: 90% !important;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.title2 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+
+.sub-title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.label {
+  font-family: "Roboto";
+  font-style: italic;
+}
+
+.btn-filter {
+  border-radius: 10rem;
+}
+
+.btn-filter:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.spot:hover {
+  box-shadow: 10px 10px 5px #D7D7D7;
+  cursor: pointer;
+}
+
+/* placeholder */
+.search-input {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #F2F2F2;
+}
+
+.search-input::-webkit-input-placeholder {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.search-input::-moz-placeholder {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.search-input:-ms-input-placeholder {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.search-input::-ms-input-placeholder {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.search-input::placeholder {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.search-input:focus {
+  color: #F2F2F2;
+  box-shadow: none;
+}
+
+.search-input-s {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: black;
+}
+
+.search-input-s::-webkit-input-placeholder {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #9B9B9B;
+}
+
+.search-input-s::-moz-placeholder {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #9B9B9B;
+}
+
+.search-input-s:-ms-input-placeholder {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #9B9B9B;
+}
+
+.search-input-s::-ms-input-placeholder {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #9B9B9B;
+}
+
+.search-input-s::placeholder {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #9B9B9B;
+}
+
+.search-input-s:focus {
+  color: black;
+  box-shadow: none;
+}
+/*# sourceMappingURL=style.css.map */
