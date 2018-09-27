@@ -1,172 +1,162 @@
+/* 
+$c-gray1: #F2F2F2;
+$c-gray2: #EBEBEB;
+$c-gray3: #D7D7D7;
+$c-gray4: #9B9B9B;
+
+
+@mixin placeholder {
+		&::placeholder {@content}
+}
+
+@mixin focus {
+  &:focus {@content}
+}
+
+
 .bg-gray1 {
-  background-color: #F2F2F2;
+	background-color: $c-gray1;
 }
-
 .bg-gray2 {
-  background-color: #EBEBEB;
+	background-color: $c-gray2;
+}
+.bg-gray3 {
+	background-color: $c-gray3;
 }
 
-.bg-gray3 {
-  background-color: #D7D7D7;
-}
 
 .border-black {
   border-color: #000 !important;
 }
 
 .border-gray3 {
-  border-color: #D7D7D7 !important;
+  border-color: $c-gray3 !important;
 }
 
 .h-simple-d {
-  height: 45px;
+	height: 45px;
 }
 
 .text-black {
-  color: black;
+	color: black;
 }
-
 .text-gray4 {
-  color: #9B9B9B;
+	color: $c-gray4;
 }
 
 .w-90 {
-  width: 90% !important;
+	width: 90% !important; 
 }
 
+
 body {
-  font-family: "Roboto";
+	font-family: "Roboto";
 }
 
 .title {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 1.5rem;
+	font-family: "Roboto";
+	font-weight: 700;
+	font-size: 1.5rem;
 }
 
 .title2 {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 2.25rem;
+	font-family: "Roboto";
+	font-weight: 700;
+	font-size: 2.25rem;
 }
 
 .sub-title {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 1.25rem;
+	font-family: "Roboto";
+	font-weight: 700;
+	font-size: 1.25rem;
 }
 
+
+
 .label {
-  font-family: "Roboto";
-  font-style: italic;
+	font-family: "Roboto";
+	font-style: italic;
 }
 
 .btn-filter {
-  border-radius: 10rem;
+	border-radius: 10rem;
 }
-
 .btn-filter:focus {
-  outline: none;
-  box-shadow: none;
+	outline: none;
+	box-shadow: none;
 }
 
 .spot:hover {
-  box-shadow: 10px 10px 5px #D7D7D7;
-  cursor: pointer;
+	box-shadow: 10px 10px 5px $c-gray3;
+	cursor:pointer;
 }
 
-/* placeholder */
 .search-input {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 1.25rem;
-  color: #F2F2F2;
-}
+	font-family: "Roboto";
+	font-weight: 700;
+	font-size: 1.25rem;
+	color: $c-gray1;
 
-.search-input::-webkit-input-placeholder {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 1.25rem;
-  color: rgba(255, 255, 255, 0.5);
-}
+	@include placeholder {
+		font-family: "Roboto";
+		font-weight: 400;
+		font-size: 1.25rem;
+		color: rgba(#FFFFFF , 0.5);
+	}
 
-.search-input::-moz-placeholder {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 1.25rem;
-  color: rgba(255, 255, 255, 0.5);
-}
-
-.search-input:-ms-input-placeholder {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 1.25rem;
-  color: rgba(255, 255, 255, 0.5);
-}
-
-.search-input::-ms-input-placeholder {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 1.25rem;
-  color: rgba(255, 255, 255, 0.5);
-}
-
-.search-input::placeholder {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 1.25rem;
-  color: rgba(255, 255, 255, 0.5);
-}
-
-.search-input:focus {
-  color: #F2F2F2;
-  box-shadow: none;
+	@include focus {
+		color: $c-gray1;
+		box-shadow: none;
+	}
 }
 
 .search-input-s {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 1.25rem;
-  color: black;
+	font-family: "Roboto";
+	font-weight: 700;
+	font-size: 1.25rem;
+	color: black;
+
+	@include placeholder {
+		font-family: "Roboto";
+		font-weight: 400;
+		font-size: 1.25rem;
+		// color: rgba(#FFFFFF , 0.5);
+		color: $c-gray4;
+	}
+
+	@include focus {
+		color: black;
+		box-shadow: none;
+	}
 }
 
-.search-input-s::-webkit-input-placeholder {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 1.25rem;
-  color: #9B9B9B;
+*/
+.pr-n01 {
+  padding-right: 50%;
 }
 
-.search-input-s::-moz-placeholder {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 1.25rem;
-  color: #9B9B9B;
+.pr-n02 {
+  padding-right: 210%;
 }
 
-.search-input-s:-ms-input-placeholder {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 1.25rem;
-  color: #9B9B9B;
+.mb-n01 {
+  margin-bottom: 250px;
 }
 
-.search-input-s::-ms-input-placeholder {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 1.25rem;
-  color: #9B9B9B;
+.mb-n02 {
+  margin-bottom: 105px;
 }
 
-.search-input-s::placeholder {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 1.25rem;
-  color: #9B9B9B;
+.mb-n03 {
+  margin-bottom: 500px;
 }
 
-.search-input-s:focus {
-  color: black;
-  box-shadow: none;
+.content .list-board {
+  height: 430px;
+  line-height: 2.5rem;
+  writing-mode: vertical-rl;
+  padding-top: 70px;
+  padding-bottom: 40px;
 }
+
 /*# sourceMappingURL=style.css.map */

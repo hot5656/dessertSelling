@@ -28,11 +28,17 @@ index.html
 ## Build Setup
 
 ``` bash
-# install dependencies
+// install dependencies
 npm install
 
-# build css for custom bootstrap theme
+// build css for custom bootstrap theme
 npm run css-c
+
+// start mini-web server
+npm run start
+
+// simple build cumetom css + watch
+npm run css-compile-sw
 ```
 
 

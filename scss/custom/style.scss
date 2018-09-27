@@ -1,3 +1,5 @@
+
+/* 
 $c-gray1: #F2F2F2;
 $c-gray2: #EBEBEB;
 $c-gray3: #D7D7D7;
@@ -36,9 +38,6 @@ $c-gray4: #9B9B9B;
 	height: 45px;
 }
 
-// .text-black {
-// 	color: black;
-// }
 .text-black {
 	color: black;
 }
@@ -71,18 +70,9 @@ body {
 	font-family: "Roboto";
 	font-weight: 700;
 	font-size: 1.25rem;
-//	color: $c-gray1;
 }
 
-// .form-control:focus {
-// 	color: $c-gray1;
-// }
-// .form-control::placeholder {
-// 	font-family: "Roboto";
-// 	font-weight: 400;
-// 	font-size: 1.25rem;
-// 	color: rgba(255, 255, 255, 0.5);
-// }
+
 
 .label {
 	font-family: "Roboto";
@@ -101,26 +91,6 @@ body {
 	box-shadow: 10px 10px 5px $c-gray3;
 	cursor:pointer;
 }
-
-/* placeholder */
-// .form-control::placeholder {
-// 	color: rgba(255, 255, 255, 0.5);
-// 	font-family: "Roboto";
-// 	font-size: 1.25rem;
-// }
-
-// .search-input {
-	// @include placeholder {
-	// 	color: $c-gray1;
-	// }
-
-	// @include focuns {
-	// 	font-family: "Roboto";
-	// 	font-weight: 400;
-	// 	font-size: 1.25rem;
-	// 	color: rgba(255, 255, 255, 0.5);
-	// }
-// }
 
 .search-input {
 	font-family: "Roboto";
@@ -158,5 +128,48 @@ body {
 	@include focus {
 		color: black;
 		box-shadow: none;
+	}
+}
+
+*/
+
+// 中文直排由右至左
+// .write-vr {
+// 	writing-mode: vertical-rl;
+// }
+
+// .list-board {
+// 	height: 420px;	
+// 	line-height: 2.5rem;
+// }
+
+//padding right #01
+.pr-n01 {
+	padding-right: 50%;
+}
+//padding right #02
+.pr-n02 {
+	padding-right: 210%;
+}
+//margin bottom  padding right #01
+.mb-n01 {
+	margin-bottom: 250px;
+}
+//margin bottom  padding right #01
+.mb-n02 {
+	margin-bottom: 105px;
+}
+//margin bottom  padding right #01
+.mb-n03 {
+	margin-bottom: 500px;
+}
+
+.content {
+	.list-board {
+		height: 430px;	
+		line-height: 2.5rem;
+		writing-mode: vertical-rl;
+		padding-top: 70px;
+		padding-bottom: 40px;
 	}
 }
