@@ -14,109 +14,77 @@
 
 </head>
 <body>
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <!-- 漢堡式選單按鈕,摺疊時顯示 -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <div class="navbar-nav mr-auto"">
-      <a class="nav-item nav-link active" href="#">Home</a>
-      <a class="nav-item nav-link" href="#">Features</a>
-      <a class="nav-item nav-link" href="#">Pricing</a>
-      <a class="nav-item nav-link disabled" href="#">Disabled</a>
-    </div>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
-
-
-    <nav class="navbar navbar-expand-md navbar-light bg-light"> 
-      <a href="#" class="navbar-brand">Good</a>
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-content">
+  <header class="container">
+    <nav class="navbar navbar-expand-sm navbar-primary justify-content-between navbar-light px-2">
+      <!-- 漢堡式選單按鈕,摺疊時顯示 -->
+      <!-- 擺於右邊,若要擺在左邊移植navbar-brand之前 -->
+      <button class="navbar-toggler c-border-none ml-2" type="button" data-toggle="collapse" data-target="#c-navbar-content" aria-controls="c-navbar-content" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbar-content">  
-        <ul class="navbar-nav"> 
-          <li class="nav-item"><a href="#" class="nav-link">HTML</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">CSS</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Javascript</a></li>
-        </ul>
+      <a class="navbar-brand" href="#">
+        <img class="d-none d-sm-inline"src="img/logo.svg" alt="" style="height:40px">
+        <img class="c-hlog2 c-sm-hlog2"src="img/logotype-sm-dark.svg" alt="">
+      </a>
+
+      <a class="d-inline d-sm-none mr-3" href="#">
+        <i class="fas fa-shopping-cart"></i>
+      </a>
+
+      <div class="collapse navbar-collapse flex-grow-0" id="c-navbar-content">
+        <div class="navbar-nav mr-auto"">
+          <a class="nav-item nav-link active" href="#">首頁</a>
+          <a class="nav-item nav-link" href="#">甜點</a>
+          <a class="nav-item nav-link" href="#">登入</a>
+          <a class="d-none d-sm-inline nav-item nav-link" href="#">
+            <i class="fas fa-shopping-cart"></i>
+          </a>
+        </div>
       </div>
-    </nav>
 
 
-<!-- .navbar-expand-{sm|md|lg|xl}決定在哪個斷點以上就出現漢堡式選單 -->
-  <!-- navbar-dark 文字顏色 .bg-dark 背景顏色 -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-   
-    <!-- .navbar-brand 左上LOGO位置 -->
-    <a class="navbar-brand" href="index.html">
-      <img src="images/H-logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-      <span class="h3 mx-1">WebDesign</span>
-    </a>
-    <!-- .navbar-toggler 漢堡式選單按鈕 -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <!-- .navbar-toggler-icon 漢堡式選單Icon -->
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    
-    <!-- .collapse.navbar-collapse 用於外層中斷點群組和隱藏導覽列內容 -->
-    <!-- 選單項目&漢堡式折疊選單 -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <!-- active表示當前頁面 -->
-        <li class="nav-item active">
-          <a class="nav-link" href="#">首頁<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">關於我</a>
-        </li>
-        <!-- .dropdown Navbar選項使用下拉式選單 -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">作品集</a>
-          <!-- .dropdown-menu 下拉選單內容 -->
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">網頁設計</a>
-            <a class="dropdown-item" href="#">平面設計</a>
-          </div>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search
-        </button>
-      </form>
+
+    </nav>   
+  </header>
+
+  <div class="content">
+    <div class="container px-0 px-sm-4">
+      <img class="w-100" src="img/photo-1473256599800-b48c7c88cd7e.jpg" alt=""> 
     </div>
-    
-  </nav>
+    <div class="container">
+      <div class="row justify-content-center" >
+        <div class="s1 s-title-1 col-4 col-sm-3 px-0">
+          <div class="bg-warning text-primary s-title-text" >
+            <div class="s-title-middle">本日精選</div>
+          </div>
+        </div>
+        <div class="s1 s-title-2 col-4 col-sm-3 px-0">
+          <div class="bg-primary text-white s-title-text">
+            人氣推薦
+          </div>
+        </div>
+        <div class="s1 s-title-3 col-4 col-sm-3 px-0">
+          <div class="bg-primary text-white s-title-text">
+            新品上市
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container list-board bg-secondary text-info mb-n02">
+      <div class="pr-n01">
+        <p class="ml-0">青山依舊在，幾度夕陽紅。慣看秋月春風。</p>
+        <p class="mr-0">一壺濁酒喜相逢，浪花淘盡英雄。是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上古今多少事，都付笑談中。</p>
+        <p class="mr-5">是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。</p> 
+      </div>
+    </div>
 
 
+  </div>
 
 
   <div class="wrap bg-primary">
     <!-- <header class="container px-5"> -->
     <header>
 
-<!-- <div class="pos-f-t">
-  <div class="collapse" id="navbarToggleExternalContent">
-    <div class="bg-dark p-4">
-      <h5 class="text-white h4">Collapsed content</h5>
-      <span class="text-muted">Toggleable via the navbar brand.</span>
-    </div>
-  </div> -->
-<!--   <nav class="navbar navbar-dark bg-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  </nav> -->
-</div>
 
 
 

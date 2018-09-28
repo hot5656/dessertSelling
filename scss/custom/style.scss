@@ -143,6 +143,95 @@ body {
 // 	line-height: 2.5rem;
 // }
 
+// log 2nd pattern height
+.c-hlog2 {
+		height: 16px;
+}
+// sell title 1
+.s-title-1 {
+	background-image: url("../../img/photo-1490914327627-9fe8d52f4d90.jpg");
+	// background-repeat:no-repeat;
+	background-size: 120% auto;
+	background-position:20% 60% ;
+	height: 180px;
+}
+// sell title 2
+.s-title-2 {
+	background-image: url("../../img/photo-1504114133367-631ecd3db3ca.jpg");
+	// background-repeat:no-repeat;
+	background-size: 120% auto;
+	background-position:20% 50% ;
+	height: 180px;
+
+}
+// sell title 3
+.s-title-3 {
+	background-image: url("../../img/photo-1499638472904-ea5c6178a300.jpg");
+	// background-repeat:no-repeat;
+	background-size: 120% auto;
+	background-position:20% 100% ;
+	height: 180px;
+}
+// sell title text
+.s-title-text {
+	writing-mode: vertical-rl;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	opacity: 0.95;
+	font-size: 20px;
+	// 垂直字距
+	letter-spacing: 5px;
+	// top:calc(50% - 20px);
+	// padding-left:calc(50% - 20px);
+	// display:inline-block;
+	// vertical-align: middle;
+	//line-height: 2.5rem;
+	// line-height: 100%;
+}
+
+.s-title-middle {
+	margin-right: calc(40%-10px);
+	// padding-right:calc(40%);
+	// display:inline-block;
+	// vertical-align: middle;
+
+
+}
+
+
+@media (min-width: 576px) {
+	.c-sm-hlog2 {
+		height: 24px;
+	}
+
+	// sell title 1
+	.s-title-1 {
+		height: 256px;
+	}
+	// sell title 2
+	.s-title-2 {
+		height: 256px;
+	}
+	// sell title 3
+	.s-title-3 {
+		height: 256px;
+	}
+
+	.s-title-text {
+		font-size: 24px;
+	}
+}
+
+// no border 
+.c-border-none {
+	border-style: none;
+}
+
+
+
+
+
 //padding right #01
 .pr-n01 {
 	padding-right: 50%;
@@ -163,6 +252,11 @@ body {
 .mb-n03 {
 	margin-bottom: 500px;
 }
+
+.s1 {
+	border: 1px solid #000;
+}
+
 
 .content {
 	.list-board {
